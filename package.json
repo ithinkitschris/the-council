@@ -1,0 +1,16 @@
+{
+  "name": "the-council",
+  "version": "0.1.0",
+  "description": "Multi-agent augmentation system powered by a Personal Knowledge Graph",
+  "type": "module",
+  "scripts": {
+    "fetch-pkg": "node scripts/fetch-pkg.js",
+    "dev": "node scripts/fetch-pkg.js && echo 'PKG loaded. Ready for development.'"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

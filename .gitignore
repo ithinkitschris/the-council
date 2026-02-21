@@ -1,0 +1,4 @@
+node_modules/
+knowledge/pkg/
+.env.local
+.pkg-clone-tmp/
