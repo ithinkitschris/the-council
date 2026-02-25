@@ -61,6 +61,7 @@ the-council/
       athena-behavioral.md         <- Athena: Thesis Advisor
       hermes-behavioral.md         <- Hermes: Documentation Expert
       prometheus-behavioral.md     <- Prometheus: Priority Allocation Coach
+      apollo-behavioral.md         <- Apollo: Roundtable Moderator
     templates/                     <- Reusable documentation patterns
       README.md                    <- Template library overview
       build-log-entry.md           <- Process documentation template
@@ -69,10 +70,12 @@ the-council/
       project-brief.md             <- Meta-template for project briefs
   src/
     lib/knowledge.js               <- PKG + directive loaders
+    lib/roundtable.js              <- Multi-agent debate orchestrator
   agents/                          <- Agent spec sheets
     athena.md                      <- Athena: Thesis Advisor
     hermes.md                      <- Hermes: Documentation Expert
     prometheus.md                  <- Prometheus: Priority Allocation Coach
+    apollo.md                      <- Apollo: Roundtable Moderator
   thesis/
     structure.md                   <- New thesis structure
     pivot-workshop.md              <- Decision history and rationale
@@ -105,7 +108,7 @@ npm run fetch-pkg                  # Symlink chris-pkg into knowledge/pkg/
 ### Naming Convention
 Council agents use the **Greek pantheon**. PKG agents use the **Norse pantheon** (Heimdall, Yggdrasil). The mythology mirrors the architecture: Norse as the primordial knowledge layer, Greek as the operational Council layer.
 
-Current Council members: Athena (Thesis Advisor), Hermes (Documentation Expert), Prometheus (Priority Allocation Coach).
+Current Council members: Athena (Thesis Advisor), Hermes (Documentation Expert), Prometheus (Priority Allocation Coach), Apollo (Roundtable Moderator).
 
 When naming a new agent, choose a Greek figure whose archetype maps to the expert's role. See `docs/patterns/expert-creation.md` for the full onboarding flow.
 
@@ -130,6 +133,40 @@ assembleSystemPrompt({
 })
 ```
 The expert provides methodology. The project brief provides scope. See `docs/patterns/project-brief.md` and `knowledge/templates/project-brief.md` for the full pattern.
+
+### Roundtable (Multi-Agent Debate)
+For strategic questions that benefit from multiple expert perspectives, the Council supports a structured roundtable debate via `src/lib/roundtable.js`.
+
+**How it works (hybrid model):**
+1. **Parallel first takes** — all participating agents respond independently to the question (parallel API calls)
+2. **Rebuttal round** — each agent sees all other first takes and responds (parallel, but after phase 1)
+3. **Synthesis** — three modes, selectable per invocation
+
+**Synthesis modes:**
+- `'moderator'` — Apollo (lightweight stateless agent) reads the full debate and produces an integrated synthesis
+- `'guided'` — Apollo generates 3-5 structured prompts for Chris to synthesize the debate himself
+- `'raw'` — returns the full debate transcript for Chris to read and synthesize on his own
+
+**Comparison mode:** `runRoundtableComparison()` runs all three synthesis modes on the same debate, letting Chris compare which approach produces the best decision-making outcomes.
+
+```javascript
+import { runRoundtable, runRoundtableComparison } from 'src/lib/roundtable.js';
+
+// Single synthesis mode
+const result = await runRoundtable({
+  question: 'Should the thesis foreground governance or augmentation?',
+  agents: ['athena', 'prometheus'],
+  synthesisMode: 'moderator',  // or 'guided' or 'raw'
+});
+
+// All three modes for comparison
+const comparison = await runRoundtableComparison({
+  question: 'How should I allocate time between thesis and job search?',
+  agents: ['athena', 'prometheus'],
+});
+```
+
+Apollo is a Council member but serves only within the roundtable — he is not invoked directly for 1:1 sessions. He is stateless, neutral, and carries no positions across debates.
 
 ### System Prompt Assembly Order
 1. Core PKG (identity, thinking, working, values) — top, highest attention
