@@ -1,152 +1,163 @@
 # Thesis State
 
-Last updated: 2026-02-24
-Updated by: Chris + Athena (second session)
+Last updated: 2026-02-25
+Updated by: Chris + Athena (third session)
 
 ---
 
 ## Deadline
 
 MFA thesis defense: approximately late April 2026.
-Time remaining: roughly 8 weeks as of last update.
+Time remaining: roughly 7 weeks as of last update.
 
 ---
 
 ## Current Thesis Argument
 
-**Status: Fork. Two live paths. No choice made yet.**
+**Status: Resolved. Single path chosen.**
 
-**Shared foundation across both paths:**
-The augmentation-atrophy tension is real and demonstrable — the same capabilities that make deeply personal AI beneficial are the ones that could erode the human agency they're meant to support. The PKG/Council is the working infrastructure that makes either path possible. The thesis contribution must live in interaction design decisions, not in the infrastructure itself.
+**Title:** Bargaining with the Future: Agency, Automation and the OS of 2030
 
-**Path 1: Designing augmentation without atrophy**
-Core question: What does a proper AI-native interaction with a personal OS look like when it's designed specifically to augment the user — not replace their thinking?
-Artifact: The Council's interaction layer, designed and built as a live response to that question.
-Framing: Fully grounded in 2026. No speculative wrapper.
-Finding: Emerges from the design decisions themselves — what it takes to build augmentation that preserves agency.
+**The argument in sequence:**
 
-**Path 2: PKG as WoZ prototype of LifeOS interaction scenarios**
-Core question: What happens when people actually experience proactive, context-aware AI operating at the depth LifeOS imagined?
-Artifact: PKG/Council as lo-fi wizard-of-oz prototype of 2-3 specific LifeOS interaction modes. Hi-fi screens and animated video as the designed vision those tests inform.
-Framing: 2026 infrastructure used to test a 2030 vision. The arc — envisioned, built toward, tested, found.
-Finding: Real human reactions to deeply personal proactive AI. What testing reveals that speculation couldn't.
+1. **Problem.** The app paradigm is insufficient. The OS of 2030 needs to be intent-based, context-aware, proactive. But a system capable enough to augment you is capable enough to replace you. The tension is real — and no one is designing for it because no one has designed the system concretely enough to know where the tension actually lives.
 
-**What both paths share:**
-- PKG/Council as the working foundation
-- Augmentation-atrophy as the central tension
-- IxD as the discipline — the contribution is designed experience, not architecture
-- Positioning goal: "he thinks about the future" + "he actually builds" + "he has a philosophy"
+2. **Proposition.** You can't design against risks you haven't made specific. LifeOS is the speculative design that makes them specific — a fully conceived intent-based OS designed with conviction toward genuine augmentation, so that the dangers have somewhere real to surface. The speculation is the prerequisite, not the point.
 
-**Strongest unanswered objection:**
-"This is personal to you. What is the generalizable contribution? You built a system for yourself — what does anyone else take from this?"
-The answer exists in principle (PKG > Host > Directive as a reusable architecture; governance model as transferable framework) but is not yet fully argued or demonstrated in writing.
+3. **Method and findings.** A personal knowledge graph (PKG) — a governed, structured self-representation — powers LifeOS scenarios as the knowledge engine. A simulation platform stages LifeOS scenarios across life domains, experienced firsthand by the designer-researcher through first-person design research. Findings surface where agency holds and where it erodes — grounded in experience, not theory.
+
+4. **Designed response.** A visual and interaction system for AR glasses + foldable tablet. High-fidelity screens and animated prototypes of key LifeOS interaction flows. Every design decision traces to a simulation finding. Not a resolution of the tensions — a first designed response, honest about what it doesn't yet resolve.
+
+5. **Contribution.** The tensions made concrete, specific, and designable. A first step toward healthy human-AI interaction — surfaced through real infrastructure and real experience. The conversation about healthy human-AI interaction has been abstract for too long. This is where it gets specific.
+
+**Device philosophy:**
+- AR glasses: periphery and ambient. Proactive nudges, handoffs, attention management. Hold no content.
+- Foldable tablet: center and depth. Content consumption, deep engagement, the place you go when the glasses point you somewhere.
+- The glasses-tablet split is Center/Periphery/Silence made physical.
+
+**Thesis positioning abstract:**
+
+> The app paradigm was designed for a simpler information world — discrete tasks, deliberate navigation, a user with time and attention to manage their own context. It was sufficient then. Today's information environment is continuous, multimodal, and relentless — and the paradigm is increasingly unsuitable for it. We adapted. Our operating systems didn't.
+>
+> This thesis envisions LifeOS — an intent-based, context-aware operating system for 2030 designed to augment human intelligence and capability. Modes define contextual solution space, automatically entered by an orchestrator reading environmental signals. Intents represent user goals within that space — always user-selected, never auto-executed. A three-layer attention model — Center, Periphery, Silence — governs how information surfaces across devices: AR glasses for ambient awareness and proactive nudges, a foldable tablet for content and depth. The glasses hold no content. They point, nudge, and hand off. The tablet is where you go deep.
+>
+> But in designing this system with full conviction, a harder question emerges: a system capable enough to genuinely augment you is also capable enough to quietly replace you. The more it anticipates, the less you have to think. The augmentation becomes substitution — invisibly, gradually, without your explicit consent.
+>
+> The thesis argues that you cannot meaningfully design against these risks without first designing how such a system would actually work. The dangers are abstract until the system is concrete. You don't know where agency erodes until you've built something capable enough to erode it. LifeOS is that concrete speculation — designed not as an end in itself, but as the prerequisite for finding the real problems.
+>
+> To ground the speculation, the thesis uses a personal knowledge graph — a governed, structured self-representation — as the engine powering LifeOS scenarios. This knowledge layer makes the interactions personal rather than generic, which is what surfaces the tensions that matter. A simulation platform stages LifeOS scenarios across life domains, experienced firsthand by the designer-researcher through first-person design research. Where does augmentation land? Where does it unsettle? Where does agency erode without you noticing? These findings emerge from experience, not theory.
+>
+> The simulation surfaces specific tensions and failure modes that become design constraints. The thesis responds with a designed visual and interaction system: high-fidelity screens and animated prototypes showing LifeOS interaction flows across AR glasses and foldable tablet. Every design decision traces to a simulation finding. The visual system is not a resolution of the tensions — it is a first designed response, honest about what it doesn't yet resolve.
+>
+> This thesis does not claim to solve the augmentation-atrophy problem. The tensions are now concrete, specific, and designable — surfaced through real infrastructure and real experience. The conversation about healthy human-AI interaction has been abstract for too long. This is where it gets specific.
 
 ---
 
 ## What's Built
 
 ### PKG (chris-pkg)
-- Status: Production. ~11,000 lines, 27 markdown files.
-- Architecture: 4-tier (Core > Positions > Context > Reference). Heimdall governance agent. Staging mechanism. Surface responsibility matrix.
-- What it demonstrates: Knowledge-behavior separation. Tiered loading. Version-controlled self-representation. Governance in practice.
-- Strength: Proven. Deployed. The foundation everything else draws from.
+- Status: Production. Frozen for thesis purposes. ~11,000 lines, 27 markdown files.
+- Role in thesis: The knowledge engine. A means to an end — powers LifeOS scenarios with real personal knowledge. Not the thesis contribution.
+- Separate project with its own trajectory beyond the thesis.
+
+### LifeOS Platform (lifeos-platform)
+- Status: Existing infrastructure. Backend API, scenario management, streaming LLM integration, world canon (WORLD.md), dashboard, digital twin prototype.
+- Currently uses Marcus Chen (synthetic user) — to be replaced with Chris's PKG.
+- World canon contains locked interaction frameworks: Domain-Mode-Intent, Center/Periphery/Silence, constitutional rules, device ecosystem.
+- Role in thesis: The simulation engine. Stages LifeOS scenarios for first-person testing. Needs PKG integration and vignette design.
 
 ### Portfolio Twin (nextjs-boilerplate)
 - Status: Deployed at ithinkitschris.com.
-- What it demonstrates: PKG-driven conversational AI. First host built on the framework. Proves the architecture works in production.
-- Strength: Real users, real conversations, live proof of concept.
+- Role in thesis: Evidence of PKG scalability. Not thesis focus.
 
 ### The Council (this repo)
-- Status: Early. Architecture defined, knowledge loader implemented, agents deployed (Hermes, Athena).
-- Council members: Hermes (Documentation Expert), Athena (Thesis Advisor)
-- What it demonstrates: Multi-agent PKG reuse. Separation of knowledge from behavior from capability. Stateful expert pattern.
-- What it does NOT yet demonstrate: Web layer. Interaction design. The designed experience layer that constitutes the thesis contribution.
-- Strength: Architecture is sound. The infrastructure exists. The design work is ahead.
+- Status: Architecture defined, six agents seated, roundtable orchestrator built.
+- Role in thesis: Separate project. Evidence of PKG scalability. Athena continues to serve as thesis advisor. Not thesis focus.
 
 ---
 
 ## Key Decisions Made
 
-1. **Pivot from LifeOS to building** (2026-02-21) — LifeOS was genuine work but the spark shifted. Building reveals what speculation cannot. The pivot narrative IS the thesis arc. See `thesis/pivot-workshop.md`.
+1. **Pivot from LifeOS to building** (2026-02-21) — LifeOS was genuine work but the spark shifted. Building reveals what speculation cannot. See `thesis/pivot-workshop.md`.
 
-2. **PKG > Host > Directive as the architecture** — Knowledge stays in the PKG, behavior lives in directives, the host assembles them. Hard boundary between the two. This separation is the first architectural contribution.
+2. **LifeOS as static design artifact: abandoned** (2026-02-24) — Figma screens, animated mockups, marketing website were serving the design vision flex, not the thesis argument. Dropped.
 
-3. **Hermes provides methodology, projects provide scope** — The expert creation pattern. Reuse without coupling. See `docs/patterns/project-brief.md`.
+3. **PKG/Council confirmed as thesis vehicle** (2026-02-24) — But the thesis contribution is not the infrastructure. It must be the designed interaction experience.
 
-4. **Greek pantheon for Council agents, Norse for PKG** — Clean separation between the knowledge layer (Norse, primordial, Heimdall) and the operational layer (Greek, active, Council members). The mythology mirrors the actual architecture.
+4. **Thesis positioning goal clarified** (2026-02-24) — Primary audience: design industry, hiring managers at Apple HI team and equivalent. Goal: "he thinks about the future" + "he designs AI-native products" + "he has a philosophy."
 
-5. **Athena uses conversational voice + behavioral shaping** — Not essay voice as the PKG Host Responsibility Matrix suggests. Athena is a collaborative partner, not an essay writer. The advisory register is behavioral, not linguistic. PKG matrix should be updated through Heimdall.
+5. **Fork resolved: LifeOS is the thesis** (2026-02-25) — The Council is a separate project. The PKG is the engine, frozen. All thesis work goes to LifeOS. The simulation platform surfaces tensions; the visual design system responds to them. Both are the thesis.
 
-6. **Stateful expert pattern** — Athena introduces a new Council pattern: experts that maintain curated state documents (thesis/state.md) as persistent memory across sessions. Different from stateless experts like Hermes.
+6. **PKG is a means to an end** (2026-02-25) — The PKG is a separate personal project. In the thesis context, it's simply the knowledge engine that makes LifeOS scenarios personal. One sentence in the abstract, not a focus.
 
-7. **LifeOS as static design artifact: abandoned** (2026-02-24) — The execution (Figma screens, animated mockups, marketing website) was serving the design vision flex, not the thesis argument. Dropped. The LifeOS *argument* — augmentation-atrophy tension, the inseparability of benefit and danger in deeply personal AI — remains available to either path.
+7. **Device philosophy locked** (2026-02-25) — AR glasses for periphery/proactive/ambient. Foldable tablet for content/depth. Glasses hold no content. This is Center/Periphery/Silence made physical.
 
-8. **PKG/Council confirmed as thesis vehicle** (2026-02-24) — The built infrastructure positions better for AI-native product design than static mockups. But the thesis contribution is not the infrastructure. It must be the designed interaction experience — which does not yet exist.
+8. **Thesis is also portfolio piece** (2026-02-25) — Path A chosen: full layers 1-5 in 8 weeks. The defense includes the designed visual system (high-fidelity screens, animated prototypes). Industry experts will be in the room. End with a bang, not another academic project.
 
-9. **Thesis positioning goal clarified** (2026-02-24) — Primary audience: design industry, hiring managers at Apple HI team and equivalent. Goal: "he thinks about the future" + "he designs AI-native products" + "he has a philosophy." The thesis must serve this positioning or it fails its own purpose.
+9. **Visual design scoped to key vignettes** (2026-02-25) — Not the full LifeOS visual system. One to two simulation findings fully realized as AR-to-tablet interaction flows. Enough to demonstrate the craft and the thinking. Full system is post-defense portfolio work.
+
+10. **Scalability path: PKG onboarding for other users** (2026-02-25) — Future work framed at the defense. A 5-10 minute onboarding generates a user's own PKG, which hooks into LifeOS to simulate their scenarios and test their reactions. Designed, not yet built. Extends the thesis beyond n=1.
 
 ---
 
 ## Open Questions
 
-1. **Generalizability** — The strongest objection. What does anyone else take from a system Chris built for himself? The answer is the architecture and governance model, but this needs to be explicitly argued.
+1. **Which vignettes to simulate** — The specific LifeOS scenarios to stage in the simulation platform. Candidates discussed: morning prioritization, preparing for a specific person, post-conversation reflection, real-time recontextualization, subway navigation, thesis discussion with classmates. Not yet selected.
 
-2. **Which path** — The fork between Path 1 (Council interaction design as thesis) and Path 2 (WoZ LifeOS prototyping as method) is the primary open question. They require different work, different timelines, different artifacts. This decision gates everything else.
+2. **PKG integration scope** — How much work to replace Marcus Chen with Chris's PKG in lifeos-platform. The platform was built around YAML-based synthetic data; the PKG is 11,000 lines of markdown with different structure. Integration approach not yet scoped.
 
-3. **Process documentation** — How much is enough? The thesis format is "substantial built artifacts + process documentation." The process docs are currently sparse. When is there enough to constitute the deliverable?
+3. **Process documentation** — How much is enough for the thesis deliverable. Currently sparse.
 
-4. **Thesis writing itself** — When does the building stop and the writing start? Or are they concurrent? What is the written form of this thesis?
+4. **Thesis writing timeline** — With simulation, design, and visual work ahead, when does the written thesis happen? Likely concurrent with design work in weeks 4-6.
 
-5. **The Council's demonstrated capability** — Currently two experts. How many are needed to demonstrate "multi-agent augmentation"? What does the minimum viable Council look like for the thesis?
-
-6. **Path 2 specific: which interactions to prototype** — If Path 2, which 2-3 LifeOS interaction modes are worth WoZ prototyping? Answers live in the existing LifeOS work (Domain-Mode-Intent, three-layer attention, proactive context-aware suggestions). Not yet identified.
+5. **WoZ methodology rigor** — What exactly is real system behavior vs. manually orchestrated in the simulation. Needs to be precise for the defense.
 
 ---
 
 ## Arguments in Development
 
-### PKG > Host > Directive as an architectural contribution
-- Claim: Separating knowledge from behavior from capability enables reuse without coupling. Any new AI surface can draw from the same PKG without needing to duplicate or re-derive personal knowledge.
-- Evidence so far: Portfolio twin and The Council both consume the PKG without modifying it. The architecture has been exercised.
-- What's missing: A clear written articulation of why this separation matters — the principle, not just the practice.
-- Strength: Strong. The architecture works.
-
-### Governance model for machine-readable self-representation
-- Claim: As PKG becomes more capable of representing you, the governance model that maintains your authorship over that representation becomes more critical. Heimdall staging, constitutional rules, and tunable proactivity are a designed governance response to this.
-- Evidence so far: Heimdall exists and functions. Staging mechanism is implemented.
-- What's missing: Mechanism detail. The principles are clear but the mechanisms need deeper documentation.
-- Strength: Developing. The argument is sound but needs more concrete illustration.
+### LifeOS as prerequisite for designing against augmentation-atrophy
+- Claim: You can't design against risks you haven't made specific. The speculative design is the methodology, not the deliverable. You have to build the future convincingly enough to interrogate it honestly.
+- Evidence: The pivot from abstract LifeOS vision to building the PKG revealed things speculation could not. Now the simulation will reveal things the building alone cannot.
+- Strength: Strong. This is the core thesis logic.
 
 ### First-person design research as method
-- Claim: Building the system for yourself and reflecting on what the building reveals is a legitimate and valuable research method. You learn things about augmentation and agency that speculation cannot surface.
-- Evidence so far: The pivot workshop documents exactly this — LifeOS couldn't interrogate what it takes to build the knowledge layer, so we built it.
-- What's missing: More reflection. The honest account of what building revealed. This is the "process documentation" deliverable.
-- Strength: Strong in concept, needs more content.
+- Claim: Sitting inside the system you designed and documenting what it feels like is a legitimate research method that surfaces findings speculation cannot.
+- Evidence: The pivot workshop documents this. The simulation will extend it.
+- Strength: Strong in concept. Needs simulation findings to be fully demonstrated.
+
+### Device philosophy as design position on agency
+- Claim: The glasses-tablet split is not just ergonomic — it's a design position on attention and agency. Glasses as periphery (the OS points, you decide). Tablet as center (you engage deliberately). The architecture of attention across devices is itself a response to the augmentation-atrophy tension.
+- Evidence: Emerging. Needs to be tested and argued.
+- Strength: Developing.
 
 ---
 
 ## Timeline Reality
 
 ### Must complete (thesis is incomplete without these)
-- Choose between Path 1 and Path 2 — this decision gates everything else
-- Designed interaction experience (Council web layer OR WoZ LifeOS prototype, depending on path)
-- Process documentation that constitutes the "honest account" deliverable
-- Written thesis argument (not just structure — actual written prose)
+- PKG integration into lifeos-platform
+- Vignette design and simulation runs
+- First-person testing with documented findings
+- Visual design system: high-fidelity screens and animated prototypes for 1-2 key vignettes
+- Written thesis argument
+- Defense preparation
 
 ### Should complete (strengthens the thesis significantly)
-- Full documentation of the governance model's mechanisms
-- Explicit argument for generalizability
-- Athena sessions that produce a rich state document (the state document itself becomes evidence)
+- PKG onboarding prototype (scalability demonstration)
+- Multiple vignettes across different life domains
+- Process documentation of the full journey
 
 ### Would be nice (enriches but not required)
-- Reference tier of PKG populated with thesis chapters
-- Council exposed as a deployable system others could fork
-- Public-facing Athena ambassador surface
+- Video walkthrough of full LifeOS interaction across devices
+- Functional prototype beyond screens/animations
+- User testing beyond n=1 (other people with generated PKGs)
 
 ### At risk
-- Path decision: every week without choosing is a week not building toward the thesis
-- Written thesis: with eight weeks left and significant design work still to do, when does writing happen?
-- Path 2 timeline: WoZ prototyping + user testing + hi-fi screens + video is ambitious in eight weeks. Scope must be ruthless.
+- PKG integration timeline: replacing Marcus Chen could take longer than expected
+- Visual design quality: compressed timeline vs. portfolio-level polish
+- Written thesis: with simulation and design work ahead, writing time is the most likely casualty
+- Scope discipline: lifeos-platform has ambition baked in. The platform is the stage, not the performance.
 
 ---
 
@@ -156,15 +167,21 @@ The answer exists in principle (PKG > Host > Directive as a reusable architectur
 
 **Position 1: The design contribution is not the infrastructure.**
 Emerged: 2026-02-24, second advising session.
-Evidence: Chris could not answer "what does the Council do differently as a designed experience?" — because that layer hasn't been designed yet. The PKG architecture, Heimdall governance, and knowledge-behavior separation are impressive engineering. They are not, on their own, an IxD contribution. The thesis lives in what gets designed on top of them.
-Confidence: High.
+Evidence: The PKG architecture, Heimdall governance, and knowledge-behavior separation are impressive engineering. They are not, on their own, an IxD contribution. The thesis lives in what gets designed on top of them.
+Confidence: High. Confirmed by third session — PKG is explicitly a means to an end.
 
-**Position 2: Path 2 has the stronger thesis structure.**
-Emerged: 2026-02-24.
-Evidence: Path 2 generates actual findings through user testing — real reactions to proactive personal AI. Path 1's finding must emerge purely from design decisions, which is harder to demonstrate and defend. Path 2 also serves the "thinks about the future" positioning more directly: the WoZ prototype bridges vision and reality in a way that is rare and credible.
-Confidence: Developing. Chris has not chosen. This is a lean, not a conclusion. Push back if it doesn't feel right.
+**Position 2: The fork was real but is now resolved.**
+Emerged: 2026-02-24. Resolved: 2026-02-25.
+Original position: Path 2 (WoZ LifeOS prototyping) had the stronger thesis structure. Position 3 speculated the fork might be false.
+Resolution: Neither path as originally framed. The thesis is LifeOS — simulation surfaces tensions, visual design responds to them. The Council is a separate project. The PKG is the engine. Chris chose this in the third session after workshopping the full structure.
+Confidence: Resolved.
 
-**Position 3: The fork may be false.**
-Emerged: 2026-02-24.
-Evidence: Path 1 (Council interaction design) and Path 2 (WoZ LifeOS testing) are not necessarily mutually exclusive. The Council's designed interaction layer could BE the WoZ prototype for LifeOS scenarios. Designing the Council with augmentation-without-atrophy as the explicit design question — then testing it against LifeOS scenarios — might collapse the fork into one thesis.
-Confidence: Low. Speculative. Raise with Chris before assuming.
+**Position 3: The thesis defense is a stage, not just an evaluation.**
+Emerged: 2026-02-25, third advising session.
+Evidence: Chris identified that industry experts will be in the room. The defense is a one-time opportunity to demonstrate craft and vision to people with hiring connections. This is why Path A (full visual design in the thesis) was chosen over the safer Path B (defend methodology only, design later). The thesis must end with a bang — not another academic project.
+Confidence: High. This is a strategic decision Chris made with clear eyes about the trade-offs.
+
+**Position 4: Scope discipline is the primary risk.**
+Emerged: 2026-02-25.
+Evidence: The lifeos-platform has significant existing infrastructure and ambition. The PKG integration is real work. The visual design needs portfolio-level polish. Seven weeks. Every session has expanded scope before contracting it. The pattern suggests Chris's instinct is to add, not cut. The vignettes must be scoped ruthlessly — one to two, fully realized, not five at half quality.
+Confidence: High. This needs to be said at the start of every session until the defense.
