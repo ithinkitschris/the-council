@@ -125,3 +125,5 @@ The process doc is not just a record — it is the material for the thesis's "ho
 | `athena` | Athena | Thesis Advisor | Stateful |
 | `apollo` | Apollo | Career & Communications Expert | Stateful |
 | `iris` | Iris | Personal Communications & Social Expert | Stateful |
+| `prometheus` | Prometheus | Priority Allocation Coach | Stateful |
+| `echo` | Echo | Roundtable Moderator | Stateless |
