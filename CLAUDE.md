@@ -60,6 +60,8 @@ the-council/
       {agent-name}-behavioral.md
       athena-behavioral.md         <- Athena: Thesis Advisor
       hermes-behavioral.md         <- Hermes: Documentation Expert
+      apollo-behavioral.md         <- Apollo: Career & Communications Expert
+      iris-behavioral.md           <- Iris: Personal Communications & Social Expert
     templates/                     <- Reusable documentation patterns
       README.md                    <- Template library overview
       build-log-entry.md           <- Process documentation template
@@ -71,10 +73,16 @@ the-council/
   agents/                          <- Agent spec sheets
     athena.md                      <- Athena: Thesis Advisor
     hermes.md                      <- Hermes: Documentation Expert
+    apollo.md                      <- Apollo: Career & Communications Expert
+    iris.md                        <- Iris: Personal Communications & Social Expert
   thesis/
     structure.md                   <- New thesis structure
     pivot-workshop.md              <- Decision history and rationale
     state.md                       <- Curated thesis state (maintained by Athena + Chris)
+  career/
+    state.md                       <- Curated career state (maintained by Apollo + Chris)
+  social/
+    state.md                       <- Curated social state (maintained by Iris + Chris)
   docs/
     process/                       <- Ongoing process documentation
     patterns/                      <- Reusable patterns for projects
@@ -101,7 +109,7 @@ npm run fetch-pkg                  # Symlink chris-pkg into knowledge/pkg/
 ### Naming Convention
 Council agents use the **Greek pantheon**. PKG agents use the **Norse pantheon** (Heimdall, Yggdrasil). The mythology mirrors the architecture: Norse as the primordial knowledge layer, Greek as the operational Council layer.
 
-Current Council members: Athena (Thesis Advisor), Hermes (Documentation Expert).
+Current Council members: Athena (Thesis Advisor), Hermes (Documentation Expert), Apollo (Career & Communications Expert), Iris (Personal Communications & Social Expert).
 
 When naming a new agent, choose a Greek figure whose archetype maps to the expert's role. See `docs/patterns/expert-creation.md` for the full onboarding flow.
 
