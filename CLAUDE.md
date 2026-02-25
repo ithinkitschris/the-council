@@ -60,6 +60,7 @@ the-council/
       {agent-name}-behavioral.md
       athena-behavioral.md         <- Athena: Thesis Advisor
       hermes-behavioral.md         <- Hermes: Documentation Expert
+      prometheus-behavioral.md     <- Prometheus: Priority Allocation Coach
     templates/                     <- Reusable documentation patterns
       README.md                    <- Template library overview
       build-log-entry.md           <- Process documentation template
@@ -71,10 +72,13 @@ the-council/
   agents/                          <- Agent spec sheets
     athena.md                      <- Athena: Thesis Advisor
     hermes.md                      <- Hermes: Documentation Expert
+    prometheus.md                  <- Prometheus: Priority Allocation Coach
   thesis/
     structure.md                   <- New thesis structure
     pivot-workshop.md              <- Decision history and rationale
     state.md                       <- Curated thesis state (maintained by Athena + Chris)
+  priorities/
+    state.md                       <- Curated priority state (maintained by Prometheus + Chris)
   docs/
     process/                       <- Ongoing process documentation
     patterns/                      <- Reusable patterns for projects
@@ -101,7 +105,7 @@ npm run fetch-pkg                  # Symlink chris-pkg into knowledge/pkg/
 ### Naming Convention
 Council agents use the **Greek pantheon**. PKG agents use the **Norse pantheon** (Heimdall, Yggdrasil). The mythology mirrors the architecture: Norse as the primordial knowledge layer, Greek as the operational Council layer.
 
-Current Council members: Athena (Thesis Advisor), Hermes (Documentation Expert).
+Current Council members: Athena (Thesis Advisor), Hermes (Documentation Expert), Prometheus (Priority Allocation Coach).
 
 When naming a new agent, choose a Greek figure whose archetype maps to the expert's role. See `docs/patterns/expert-creation.md` for the full onboarding flow.
 
@@ -112,7 +116,7 @@ When naming a new agent, choose a Greek figure whose archetype maps to the exper
 4. The loader handles PKG tier assembly automatically (U-shaped attention order)
 
 ### Stateful Experts
-Some experts maintain curated state documents as persistent memory across sessions. Athena is the first. Her state lives in `thesis/state.md` and is passed as `additionalContext` on each invocation.
+Some experts maintain curated state documents as persistent memory across sessions. Athena's state lives in `thesis/state.md`; Prometheus's state lives in `priorities/state.md`. Both are passed as `additionalContext` on each invocation.
 
 State documents capture what code artifacts cannot: argument strength, strategic priorities, developing positions, timeline reality. They are co-authored by Chris and the expert. The expert proposes updates; Chris approves. This mirrors the PKG staging governance model.
 

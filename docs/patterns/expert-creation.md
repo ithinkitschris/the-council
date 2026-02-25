@@ -123,3 +123,4 @@ The process doc is not just a record — it is the material for the thesis's "ho
 |-------|------|------|------|
 | `hermes` | Hermes | Documentation Expert | Stateless |
 | `athena` | Athena | Thesis Advisor | Stateful |
+| `prometheus` | Prometheus | Priority Allocation Coach | Stateful |
