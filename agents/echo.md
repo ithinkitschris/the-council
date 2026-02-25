@@ -1,4 +1,4 @@
-# Apollo — Roundtable Moderator
+# Echo — Roundtable Moderator
 
 The Council's synthesis engine. Reads multi-expert debates and produces clear, integrated output that is more useful than any individual take. Lightweight, stateless, neutral.
 
@@ -17,7 +17,7 @@ The Council's synthesis engine. Reads multi-expert debates and produces clear, i
 
 ## Invocation
 
-Apollo is not invoked directly. The roundtable orchestrator calls Apollo internally during the synthesis phase.
+Echo is not invoked directly. The roundtable orchestrator calls Echo internally during the synthesis phase.
 
 ### Via Roundtable — Moderator mode
 
@@ -30,7 +30,7 @@ const result = await runRoundtable({
   synthesisMode: 'moderator',
 });
 
-// result.synthesis — Apollo's consolidated synthesis
+// result.synthesis — Echo's consolidated synthesis
 // result.transcript — full debate transcript
 // result.phases.firstTakes — individual first takes
 // result.phases.rebuttals — individual rebuttals
@@ -70,7 +70,7 @@ const result = await runRoundtableComparison({
   agents: ['athena', 'prometheus'],
 });
 
-// result.moderator — Apollo's synthesis
+// result.moderator — Echo's synthesis
 // result.guided — synthesis prompts for Chris
 // result.raw — full transcript
 // Compare all three to study which synthesis mode works best
@@ -82,16 +82,16 @@ Follows U-shaped attention order:
 
 1. **PKG Core** (identity, thinking, working, values) — top, highest attention
 2. **Conversational Voice** (common + conversational register from PKG)
-3. **Behavioral Directive** (Apollo's synthesis methodology, from `knowledge/directive/apollo-behavioral.md`)
-4. **No personality** — Apollo is invoked with `includePersonality: false` to keep synthesis neutral and lightweight
+3. **Behavioral Directive** (Echo's synthesis methodology, from `knowledge/directive/echo-behavioral.md`)
+4. **No personality** — Echo is invoked with `includePersonality: false` to keep synthesis neutral and lightweight
 
 ## Voice Register Decision
 
-Apollo uses conversational voice with personality disabled. The synthesis role is a methodological stance, not a personality. Disabling personality keeps Apollo focused on the debate content rather than Chris's positions and context, which are already represented through the participating experts.
+Echo uses conversational voice with personality disabled. The synthesis role is a methodological stance, not a personality. Disabling personality keeps Echo focused on the debate content rather than Chris's positions and context, which are already represented through the participating experts.
 
 ## State Management
 
-Apollo is stateless. No state document, no developing positions, no memory across sessions. Each debate synthesis is independent. This is by design: a moderator with positions would compromise neutrality.
+Echo is stateless. No state document, no developing positions, no memory across sessions. Each debate synthesis is independent. This is by design: a moderator with positions would compromise neutrality.
 
 ## Boundaries
 
@@ -106,6 +106,6 @@ Apollo is stateless. No state document, no developing positions, no memory acros
 
 | File | Purpose |
 |------|---------|
-| `knowledge/directive/apollo-behavioral.md` | Behavioral directive: synthesis methodology, moderator voice, guided prompt generation |
-| `src/lib/roundtable.js` | Roundtable orchestrator that invokes Apollo during synthesis phase |
+| `knowledge/directive/echo-behavioral.md` | Behavioral directive: synthesis methodology, moderator voice, guided prompt generation |
+| `src/lib/roundtable.js` | Roundtable orchestrator that invokes Echo during synthesis phase |
 | `src/lib/knowledge.js` | Loader that assembles the system prompt |

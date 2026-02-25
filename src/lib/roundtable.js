@@ -7,7 +7,7 @@
  *   Phase 3: Synthesis (three modes — moderator, guided, raw)
  *
  * Synthesis modes:
- *   - 'moderator': Apollo synthesizes the debate into a consolidated response
+ *   - 'moderator': Echo synthesizes the debate into a consolidated response
  *   - 'guided': Generates synthesis prompts for Chris based on key tensions
  *   - 'raw': Returns the full debate transcript for Chris to synthesize himself
  *
@@ -163,11 +163,11 @@ async function runRebuttals(client, { question, agents, firstTakes, agentContext
 // --- Phase 3: Synthesis ---
 
 /**
- * Moderator synthesis: Apollo reads the full debate and produces a consolidated response.
+ * Moderator synthesis: Echo reads the full debate and produces a consolidated response.
  */
 async function synthesizeModerator(client, { transcript, question, model }) {
   const systemPrompt = assembleSystemPrompt({
-    agentName: 'apollo',
+    agentName: 'echo',
     voice: 'conversational',
     includePersonality: false,
   });
@@ -182,7 +182,7 @@ async function synthesizeModerator(client, { transcript, question, model }) {
  */
 async function synthesizeGuided(client, { transcript, question, model }) {
   const systemPrompt = assembleSystemPrompt({
-    agentName: 'apollo',
+    agentName: 'echo',
     voice: 'conversational',
     includePersonality: false,
   });
