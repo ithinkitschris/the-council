@@ -1,104 +1,127 @@
 # Thesis Structure
 
-## Opening Statement
+## Title
 
-AI is already augmenting human intelligence. But the current interaction model — generic chat interfaces, session-based context, no persistent knowledge about the user — treats every person identically. The augmentation is broad but shallow. What happens when you go deep? When you invest in building a comprehensive, structured representation of who you are — your identity, thinking patterns, values, voice, knowledge boundaries — and deploy it across multiple AI systems?
-
-This thesis explores that question through building. A Personal Knowledge Graph (PKG) formalizing the designer's own identity. A Council of specialized AI agents drawing from that knowledge. A governance model for maintaining human authorship over machine-readable self-representation. And an honest account of what the process reveals about augmentation, agency, and the uncomfortable intimacy of teaching machines who you are.
+Bargaining with the Future: Agency, Automation and the OS of 2030
 
 ---
 
-## Goal
+## Problem
 
-To augment human intelligence and capability — to extend what people can do and think, not to replace them. This goal is both the positive vision the thesis pursues and the source of its central design paradox.
+The app paradigm is insufficient. Introduced in 2007 for a world of scarce information and deliberate navigation, it assumed a user with time and attention to manage their own context. Today's information environment is continuous, multimodal, and relentless. We adapted. Our operating systems didn't.
 
----
+The OS of 2030 needs to be intent-based, context-aware, proactive. But a system capable enough to genuinely augment you is also capable enough to quietly replace you. The more it anticipates, the less you have to think. Augmentation becomes substitution, invisibly, gradually, without your explicit consent.
 
-## Problem Statement
-
-Current AI augmentation is context-poor. Large language models are capable but generic — they know nothing about the specific human they're assisting unless told, repeatedly, per session. The burden of context falls entirely on the user: explaining who they are, what they're working on, how they think, what they value. Every session starts from zero.
-
-This isn't a capability gap — it's a design gap. The knowledge infrastructure for persistent, personal AI augmentation doesn't exist as a designed artifact. What would it look like to take it seriously? To treat personal knowledge not as prompt engineering but as a structured, governed, version-controlled system that multiple AI surfaces can draw from?
+The tension is real, and no one is designing for it because no one has designed the system concretely enough to know where the tension actually lives.
 
 ---
 
-## Context
+## Proposition
 
-The designer spent a year exploring this territory from the speculative end — designing LifeOS, a conceptual operating system for 2030 that assumed deep personal context and explored the agency-automation tensions that arise from it. That work identified the paradox, the governance questions, and the design principles. But it also revealed a gap: LifeOS assumed a robust personal knowledge layer existed without interrogating what it takes to build one, govern one, or live with one.
+You cannot meaningfully design against risks you haven't made specific. The dangers are abstract until the system is concrete. You don't know where agency erodes until you've built something capable enough to erode it.
 
-This thesis picks up where that gap was identified. Instead of speculating further, it builds.
-
----
-
-## Paradox
-
-A system that knows you deeply enough to genuinely augment you is one that can also represent you without you. The more accurately your PKG captures who you are, the more capable AI agents become at acting on your behalf — and the more critical it becomes that you maintain authorship over that representation.
-
-Formalizing yourself for machines is an act of augmentation that requires constant governance to prevent it from becoming an act of delegation.
+LifeOS is that concrete speculation: a fully conceived intent-based operating system designed with conviction toward genuine augmentation, so that the dangers have somewhere real to surface. The speculation is the prerequisite, not the point.
 
 ---
 
-## Narrative Arc
+## Method
 
-Chris began by designing LifeOS — a speculative operating system that augments human capability. Through that process, he identified the core tensions: augmentation can become substitution, convenience can erode agency, and the system's knowledge about you is what makes it both powerful and dangerous.
+First-person design research, grounded in real infrastructure.
 
-He then asked: what would happen if instead of speculating about these tensions, I actually built them? What if I formalized myself into a machine-readable knowledge graph and constructed AI agents that draw from it? What would I learn about augmentation and agency that speculation couldn't teach me?
+1. **Personal Knowledge Graph (PKG)** — A governed, structured self-representation (~11,000 lines) serving as the knowledge engine powering LifeOS scenarios. The PKG makes the interactions personal rather than generic, which is what surfaces the tensions that matter. The PKG is the means, not the contribution.
 
-The pivot from speculating to building — and what the building revealed — is the thesis.
+2. **Simulation platform** — Stages LifeOS scenarios across life domains, experienced firsthand by the designer-researcher. The simulation uses the PKG to generate personally grounded interactions within LifeOS's interaction frameworks (Domain-Mode-Intent, Center/Periphery/Silence, constitutional rules).
 
----
-
-## Approach
-
-This thesis explores human-AI augmentation through first-person design research: building, deploying, and reflecting on a PKG-driven augmentation system.
-
-1. **The PKG** — A comprehensive Personal Knowledge Graph formalizing identity, thinking patterns, values, voice, positions, and context into a structured, governed knowledge system
-
-2. **The Council** — A multi-agent augmentation system where specialized AI agents (each with distinct capabilities and behavioral directives) draw from the shared PKG to provide deep, context-aware assistance
-
-3. **The Governance Model** — A framework for maintaining human authorship: knowledge staging, gatekeeper review, tunable agent proactivity, constitutional rules derived from user-articulated values
-
-4. **The Process Documentation** — An honest account of decisions, tensions, and surprises encountered through building — what the act of formalizing yourself for machines reveals
+3. **First-person testing** — Sitting inside the system you designed and documenting what it feels like. Where does augmentation land? Where does it unsettle? Where does agency erode without you noticing? These findings emerge from experience, not theory.
 
 ---
 
-## Core Tension
+## Interaction Frameworks
 
-The thesis does not resolve the augmentation-agency tension. It holds it honestly. The PKG makes augmentation deeper and more personal — and that depth is precisely what demands rigorous governance. Building the system surfaces the tension in ways that speculation cannot.
+Carried forward from LifeOS speculative design work:
+
+- **Domain-Mode-Intent** — Modes define contextual solution space, automatically entered by an orchestrator reading environmental signals. Intents represent user goals within that space, always user-selected, never auto-executed.
+- **Center/Periphery/Silence** — A three-layer attention model governing how information surfaces across devices and moments.
+- **Constitutional rules** — User-articulated values that constrain system behavior. Governance designed in, not bolted on.
 
 ---
 
-## Design Principles
+## Device Philosophy
 
-**Carried over from LifeOS:**
-1. Augment, don't replace
-2. Automation must be reversible, explainable, and auditable
-3. Freedom through explicit trade-offs (tunable proactivity)
-4. No punishment, no shame, no dead ends
-5. Convenience and control are not zero-sum
+AR glasses and foldable tablet. The attention model made physical.
 
-**New:**
-6. Knowledge is the foundation, not the AI
-7. Governance is a first-class design concern, not an afterthought
+- **AR glasses**: Periphery and ambient. Proactive nudges, handoffs, attention management. Hold no content. The glasses point, nudge, and hand off.
+- **Foldable tablet**: Center and depth. Content consumption, deep engagement. The place you go when the glasses point you somewhere.
+- The split is Center/Periphery/Silence as a device architecture, not just an information model. It is itself a design position on agency: the system surfaces, you decide.
+
+---
+
+## Designed Response
+
+The simulation surfaces specific tensions and failure modes that become design constraints. The thesis responds with:
+
+- **High-fidelity screens and animated prototypes** of key LifeOS interaction flows across AR glasses and foldable tablet.
+- **One to two vignettes fully realized** — simulation findings translated into designed interactions that demonstrate the craft and the thinking.
+- Every design decision traces to a simulation finding. The visual system is not a resolution of the tensions. It is a first designed response, honest about what it doesn't yet resolve.
 
 ---
 
 ## Contributions
 
-1. **PKG > Host > Directive as an architectural framework** for personal AI augmentation — separating knowledge from behavior from capability, enabling reuse without coupling
+1. **The tensions made concrete, specific, and designable.** The conversation about healthy human-AI interaction has been abstract for too long. This thesis makes it specific through real infrastructure and real experience.
 
-2. **A governance model for machine-readable self-representation** — staging mechanisms, gatekeeper agents, constitutional rules, tunable proactivity — demonstrated through working artifacts
+2. **First-person design research as method for human-AI interaction design.** Sitting inside the system you designed surfaces findings that speculation and user testing cannot. The method itself is a contribution.
 
-3. **The design narrative itself** — the evolution from speculative designer to builder, and what the building process revealed about augmentation, agency, and authorship that theory alone could not surface
+3. **A designed interaction system responding to simulation findings.** Not a speculative vision. Not a theoretical framework. A visual and interaction system where every decision traces to something experienced firsthand.
+
+---
+
+## Design Principles
+
+Carried over from LifeOS:
+1. Augment, don't replace
+2. Automation must be reversible, explainable, and auditable
+3. Freedom through explicit trade-offs (tunable proactivity)
+4. No punishment, no shame, no dead ends
+5. Convenience and control are not zero-sum
+6. Knowledge is the foundation, not the AI
+7. Governance is a first-class design concern, not an afterthought
 
 ---
 
 ## Deliverables
 
-1. **The PKG** — A comprehensive, structured personal knowledge graph (~11,000+ lines, 4-tier architecture, governance model)
+1. **Simulation findings** — Documented first-person experience of LifeOS scenarios, with specific tensions, failure modes, and design constraints identified.
 
-2. **The Council** — A multi-agent augmentation system with designed interface (CLI core + web layer showcasing interaction design, visual design, and information architecture)
+2. **Visual and interaction design system** — High-fidelity screens and animated prototypes for 1-2 key LifeOS vignettes across AR glasses and foldable tablet. Portfolio-level craft.
 
-3. **The Portfolio Twin** — A deployed, production proof of concept demonstrating PKG-driven conversational AI (ithinkitschris.com)
+3. **Written thesis** — The argument, methodology, findings, and designed response. The document that ties everything together.
 
-4. **Process Documentation** — Design decisions, tensions, governance evolution, and honest reflection on the building process
+4. **Defense presentation** — The thesis presented to committee and industry experts. End with a bang.
+
+---
+
+## Scope Boundaries
+
+- **The PKG is a means to an end.** It powers the simulation. One sentence in the abstract. Not a thesis focus. It has its own trajectory as a separate project.
+- **The Council is a separate project.** Evidence of PKG scalability, not thesis work.
+- **The portfolio twin is a separate project.** Evidence of PKG deployment, not thesis work.
+- **Visual design is scoped to key vignettes.** Not the full LifeOS system. Full system is post-defense portfolio work.
+
+---
+
+## Future Work
+
+- **PKG onboarding for other users** — A 5-10 minute onboarding generates a user's own PKG, which hooks into LifeOS to simulate their scenarios and test their reactions. Designed, not yet built. Extends the thesis beyond n=1.
+- **Full LifeOS visual system** — The complete interaction design across all domains, modes, and device handoffs.
+- **Multi-user testing** — Other people experiencing LifeOS with their own PKGs. Moving from first-person to participatory.
+
+---
+
+## Narrative Arc
+
+Chris began by designing LifeOS, a speculative operating system that augments human capability. Through that process, he identified the core tensions: augmentation can become substitution, convenience can erode agency, and the system's knowledge about you is what makes it both powerful and dangerous.
+
+He then built the knowledge infrastructure that LifeOS assumes: a personal knowledge graph formalizing his own identity, deployed across multiple AI systems. The building revealed things that speculation could not.
+
+Now the thesis returns to LifeOS, not as a speculative vision but as a simulation grounded in real personal knowledge. The designer sits inside his own designed future, documents what it feels like, and responds with a designed interaction system. The evolution from speculator to builder to test subject to designer is the thesis.
