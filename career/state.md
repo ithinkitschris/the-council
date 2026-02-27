@@ -1,7 +1,7 @@
 # Career State
 
 Last updated: 2026-02-26
-Updated by: Chris + Apollo (seniority + positioning session)
+Updated by: Chris + Apollo (networking strategy revision: Apple HI cold connects as parallel track, not held fallback)
 
 ---
 
@@ -19,7 +19,7 @@ Timeline: Final stretch of MFA (defense ~late April 2026). Available to start Ju
 
 **Status:** In between — applying to open positions, but not yet fully in it. Networking has not started in earnest.
 
-**Target role types:** Senior interaction design, product design, creative technology, or design roles at the intersection of AI, product, and craft. Leading with seniority in creative direction, brand, and craft, not trying to prove seniority in pure product design case studies. The roles that will want Chris are the ones that value the cross-disciplinary range, not the ones that evaluate on shipped product metrics alone. Not standard PM-adjacent UX roles.
+**Target role types:** Two lanes, same person. (1) Senior interaction design, product design, or creative technology roles at the intersection of AI, product, and craft — Apple HI, Anthropic, creative technology studios. (2) Senior creative / art director roles at brand and advertising shops that need someone who bridges traditional craft with digital and interaction — Pentagram, Wieden+Kennedy, Mother, Media Arts Lab. Leading with seniority in creative direction, brand, and craft, not trying to prove seniority in pure product design case studies. The roles that will want Chris are the ones that value the cross-disciplinary range, not the ones that evaluate on shipped product metrics alone. Not standard PM-adjacent UX roles.
 
 **Geographic scope:** Open to anywhere. No constraints. Bay Area (Apple, Anthropic), NYC, or elsewhere are all viable.
 
@@ -72,8 +72,31 @@ Cold application to Apple HI got a recruiter screen — the profile is compellin
 ### Apple — HI / Interaction Design
 - **Status:** Recruiter screen completed. Did not proceed — role required ASAP start, Chris unavailable until July 2026.
 - **How it closed:** Recruiter said they would be "happy to reconsider for other roles in the future." Door left open.
-- **Follow-up status:** None yet. This is the highest-priority action item.
-- **Next step:** Follow-up email to recruiter this week. Restate July 2026 availability, express continued interest in HI roles, keep the thread alive.
+- **Follow-up status:** Draft written. Sending window: mid-to-late March 2026.
+- **Timing rationale:** Recruiter said to reach out closer to April/May. Mid-to-late March is close enough to that window to feel natural, far enough ahead to not land in the same week as every other candidate. Reaching out now would contradict the timeline they set. Waiting until April cold means reintroducing yourself.
+- **Follow-up strategy:** Combine thread-maintenance with portfolio testing ask. One message, two purposes. Lead with the portfolio ask (genuine, bounded, specific), close with the timeline reference (July start, continued interest in HI). The portfolio ask is the reason for writing. The job interest is a natural close, not the opening thesis.
+- **Draft (working, to be refined before send):**
+
+> Hi [name],
+>
+> I've been building something for my portfolio since we last spoke and I'd genuinely love a recruiter's take on it, specifically yours if you have about 5 minutes.
+>
+> It's a conversational AI experience where visitors talk to a digital twin of me, powered by a personal knowledge graph. I know that sounds like a lot, but it's easier to just try it than explain it.
+>
+> If you do, three things I'd ask you to notice:
+> 1. At the start, when you pick how to describe your visit, do any of the options feel like how you'd actually evaluate a candidate? Or do they miss?
+> 2. When the result comes back, does it tell you what you'd want to know? Or is it a lot of words around not much?
+> 3. Gut check: genuinely useful, or a gimmick?
+>
+> And honestly the one question that matters most to me: would you send this link to a hiring manager?
+>
+> I'm also still very interested in HI roles for a July start, happy to talk more whenever the timing makes sense.
+>
+> [link]
+>
+> Chris
+
+- **Next step:** QA the portfolio recruiter path end-to-end before this sends. The message points someone at Apple at the experience. It has to be airtight.
 
 ---
 
@@ -104,14 +127,45 @@ The Apple recruiter who screened Chris is a natural first candidate — an exist
 
 **North star metric:** Yes/no ratio on "would you send this to a HM?"
 
-### Available connections
-Mostly cold. Some vague 1-2 degree connections — people Chris has briefly interacted with in the past year or two but hasn't reached out to. The Apple recruiter from the HI screen is the warmest connection and the natural first target for the portfolio testing outreach.
+### Connection Map (first documented 2026-02-26)
 
-### Next steps
-1. Run through the recruiter path on the portfolio end-to-end first — make sure it's polished before sending anyone.
-2. Apple recruiter: combine follow-up with portfolio testing ask. One message, two purposes.
-3. Map the 1-2 degree connections. List who they are, where they work, what the touchpoint was.
-4. Identify in-house recruiters at Anthropic and Rivian for the same portfolio testing outreach.
+Chris's initial read was "mostly cold." The actual map is stronger than that. Three genuinely warm, directly relevant connections plus several viable second-degree paths. The gap isn't connections. It's activation.
+
+**Tier 1: Warm + directly relevant (activate first)**
+
+- **Program alumni, product designer at Apple HI.** Same MFA program, exact target team. This is the strongest Apple path beyond the recruiter. Shared context, shared faculty, shared experience. The natural conversation: "finishing up the program, would love to hear what it's like on HI." Not a cold LinkedIn message. A peer conversation.
+
+- **Faculty member, product lead at Google DeepMind.** Chris is on good terms with this faculty. This is the bridge to Anthropic: the faculty is good friends with a product designer at Anthropic. The play isn't "connect me to your friend." It's a genuine conversation with the faculty about his world, with the Anthropic connection surfacing naturally or as a warm intro if earned.
+
+- **Creative Director at Ogilvy NYC.** Working terms. This is the gateway into NYC creative shops. A CD at Ogilvy would know people at Pentagram, W+K, Mother, and similar shops. The play is catching up, sharing what Chris has been building, and letting the dots connect. Not "do you know anyone at..."
+
+**Tier 2: Real touchpoint, needs reactivation**
+
+- **Recruiter at Media Arts Lab LA.** Met in person ~3 years ago. Still at the office. MAL LA is a dream office (explicitly named by Chris as a target if Apple HI doesn't materialize). The reactivation mirrors the Apple recruiter play: lead with something genuine he's built, not "remember me?" Three years is a gap but an in-person meeting is a real touchpoint.
+
+- **Head of design at Notion NYC.** On speaking terms, speaks occasionally, but the contact has been limited with his time. Don't push for more than he's giving. When they do speak, make sure he knows what Chris is building and where he's headed. Sometimes the value of a connection like this is a single well-timed mention to someone else.
+
+**Tier 3: Exists but needs a bridge**
+
+- **Friend → friend → product designer at Anthropic.** A second path to Anthropic. Don't activate until after the DeepMind faculty path is explored. Two paths to the same company is good, but don't burn both at once.
+
+- **LinkedIn cold connects: Apple HI recruiters + designers.** Several accepted connections, no conversations. Apple HI is not one team — it's hundreds of designers across many siloed groups. The alumni and the recruiter who already screened Chris are the high-priority warm paths, but cold connects to HI designers in other groups are genuinely different doors into different parts of the org. These are a parallel low-intensity track: selectively engage designers whose work is genuinely interesting, build slow-burn visibility across the org. Not mass outreach, not "hey I'm interested in HI." Real interactions. Different purpose and energy investment from the warm paths, but not a fallback held in reserve.
+
+- **LinkedIn cold connects: head of design + design lead at Rivian.** Exist but cold. A friend of a friend used to work as a designer at Rivian, but "used to" limits the value.
+
+**Tier 4: Adjacent value**
+
+- **Mentor, occupational therapist, NYU faculty.** Warm relationship, Chris holds him dear. Not a direct path to any target company. But inclusive design and accessibility are deeply relevant to LifeOS. Don't force this into a job search vehicle. If he knows people in design-for-health or accessible technology, that's a natural thread.
+
+### Networking next steps
+1. **QA the portfolio recruiter path end-to-end.** This gates all outreach. Nothing goes out until it's airtight.
+2. **Apple recruiter follow-up: mid-to-late March.** Draft exists (see Active Applications above). Refine before sending.
+3. **Apple HI alumni conversation.** Reach out as a peer from the same program. Genuine ask: what's it like on HI? This is the most natural conversation on the list.
+4. **DeepMind faculty conversation.** Genuine engagement about his work. The Anthropic bridge surfaces from there, not before.
+5. **Ogilvy CD catch-up.** Share what he's been building. Let the creative shop network emerge from a real conversation.
+6. **MAL LA recruiter reactivation.** After portfolio QA is done. Same portfolio testing framing as the Apple recruiter ask.
+7. **Identify in-house recruiters at Anthropic and Rivian** for portfolio testing outreach. Widen the funnel beyond existing connections.
+8. **Slow-burn Apple HI visibility.** Parallel to warm paths: selectively engage cold-connected HI designers whose work is genuinely interesting. Real interactions, not networking spray. Build visibility across different parts of the org over time.
 
 ---
 
@@ -127,11 +181,19 @@ Rationale: Chris confirmed this in session. It's true, specific, leads with esta
 
 **Decision 3: Resume gets tailored versions per target.**
 Date: 2026-02-26.
-Rationale: One-size-fits-all resume was underselling for Apple HI specifically. Chris is open to maintaining 2-3 tailored versions. Apple HI version drafted first as the live thread. Anthropic and general versions to follow.
+Rationale: One-size-fits-all resume was underselling for Apple HI specifically. Chris is open to maintaining 2-3 tailored versions. Apple HI version drafted first, creative/brand version drafted second. Anthropic version to follow.
 
 **Decision 4: Resume restructured — Current Work section above Experience.**
 Date: 2026-02-26.
 Rationale: The most differentiating work (thesis, digital twin, Stanford) wasn't on the resume at all because it predated those projects. Adding a Current Work section above Experience ensures Apple HI reads the frontier work first. The thesis, the AI-native portfolio, and the Stanford win are the strongest signals for this audience and they were completely absent.
+
+**Decision 5: Two-lane job search — tech/product AND creative/brand.**
+Date: 2026-02-26.
+Rationale: Chris named Pentagram, Wieden+Kennedy, Mother, and Media Arts Lab as targets alongside Apple, Anthropic, and Rivian. The creative/brand lane positions him as a senior creative and maker who bridges traditional craft with interaction design and creative technology. Same person, different emphasis per audience. This required a second resume version with maker-focused experience descriptions, advertising pedigree leading, and the thesis reframed as speculative design rather than tech architecture.
+
+**Decision 6: Creative/brand positioning is "maker who bridges disciplines," not "creative returning to advertising."**
+Date: 2026-02-26.
+Rationale: Chris's desired role at creative shops is bridging disciplines — bringing interaction design, motion, and digital craft into brand environments that don't have enough of it. Not going back to pure advertising. The "Who am I?" for this audience leads with maker identity ("never stopped making with my hands") and frames the tech expansion as creative technology, not an academic pivot. The MFA is the container, not the story.
 
 ---
 
@@ -181,27 +243,95 @@ The current resume is dated (pre-thesis, pre-digital twin, pre-PKG). It position
 > Creative Circle Awards 2021 — 9x Gold 7x Silver 4x Bronze
 
 ### Status
-Drafted, not yet implemented in Figma. Chris to design and lay out.
+Done. Finalized in Figma.
+
+---
+
+## Resume — Creative / Brand Version (Drafted)
+
+For Pentagram, Wieden+Kennedy, Mother, Media Arts Lab, and creative/brand shops. Positions Chris as a senior creative and maker who bridges traditional advertising craft with interaction design and creative technology. The advertising pedigree leads. The tech expansion is framed as creative technology, not academic pivot.
+
+### Interview insights (extracted before drafting)
+- **Day to day at these shops:** Bridging disciplines — the person who brings interaction design, motion, and digital craft into a brand/campaign environment that doesn't have enough of it.
+- **Lead story:** Advertising pedigree first, but the new work matters too — framed as creative technology, not MFA. "The MFA doesn't matter much to me."
+- **Thesis framing for this audience:** Keep it, but reframe hard. Strip the technical architecture, foreground speculative design ambition. "I designed an entire operating system from scratch" not "a three-layer attention model."
+- **Desired gut reaction:** "This person is a maker."
+- **Experience angle:** Craft and hands-on work + range across mediums. What Chris actually made, not scope descriptions.
+
+### "Who am I?" — Creative / Brand version
+> Singaporean-born, NYC-based Senior Creative with eight years across advertising, motion design, and art direction. Art directed for Singapore Airlines, IKEA, and Studio Ghibli. Storyboarded, animated, edited, and shipped across film, digital, spatial, and environmental. Never stopped making with my hands, even as the title changed. Now expanding that craft into interaction design and creative technology.
+
+Note: Chris personalized this in Figma with "Hey!" opener and "(and I really mean never)" — his touches, sounds like him.
+
+### Current Work section — Creative / Brand version
+> **ithinkitschris.com — AI-Native Portfolio Experience**
+> Conversational AI experience built as a creative technology project. Visitors talk to a digital twin powered by a personal knowledge graph. Built with Claude Code, React, Next.js.
+>
+> **Thesis — Bargaining with the Future**
+> Speculative design project: a complete operating system for 2030, designed from scratch across AR glasses and foldable tablet. What happens when a system built to augment you starts replacing you instead.
+>
+> **Stanford Longevity Design Challenge 2025** — First Place
+
+Note: Digital twin leads over thesis for this audience — it's more legible as creative technology.
+
+### Experience — Maker-focused for creative shops
+**Creative Lead — Marina Bay Sands (ArtScience Museum)**
+> Designed the key visual and led the full integrated campaign for The World of Studio Ghibli, Singapore's first Ghibli exhibition. Digital OOH, cinema, print, merchandise, and environmental installations.
+
+**Art Director — TBWA\ Singapore**
+> Lead Art Director on Singapore Airlines. Pitched, art directed, storyboarded, and animated Beyond The Cabin across 6 episodes and 6 cities. Art directed the in-flight safety video, now playing on every SIA flight globally. Edited, color graded, and delivered the SilverKris Lounge launch film. Designed motion for the lounge's digital wall installation.
+
+**Motion Art Director — BBH Singapore**
+> Edited and motion designed 16 deliverables for Nike South-east Asia across @nike, @nikerunning, and @niketraining. Art directed Samsung CES 2020 on-site coverage and product content.
+
+Important: Chris did NOT art direct Nike. He was video editor/motion designer on Nike. He art directed IKEA (not listed in BBH entry because it's not named in the experience — the brand is in the "Who am I?" line).
+
+### Skills — Creative / Brand version
+> Creative Direction, Motion Design, Art Direction, Product Design, Video Editing
+> After Effects, Premiere Pro, Photoshop, Illustrator, InDesign, Lightroom
+> Figma, Blender, React.js, Next.js, Tailwind, JavaScript, Claude Code
+> English (Native), Mandarin (Conversational)
+
+Note: After Effects and motion tools lead. Dev stack (React, Next.js, etc.) is included because "Who am I?" claims creative technology — the dev stack is the evidence. Apollo flagged that listing Cursor/Antigravity/Ollama instead of the dev stack may not land with creative directors who don't know what those tools are.
+
+### Awards — Creative / Brand version (less trimmed)
+> Hashtag Awards 2023 — 2x Gold 1x Silver 3x Shortlist
+> Cannes Lions 2021 — 1x Shortlist
+> One Show 2021 — 1x Silver 1x Shortlist
+> Webby Awards 2021 — 3x Winner
+> Creative Circle Awards 2021 — 9x Gold 7x Silver 4x Bronze
+
+Keeps Hashtag Awards (creative shops respect the trophy case). Still cuts Singapore Youth Festival, Noise Singapore, Director's List.
+
+### Status
+Done. Finalized in Figma.
 
 ---
 
 ## Immediate Action Items (Apollo's recommendation)
 
-1. **Update resume in Figma** — Implement the Apple HI version drafted above. One page. This gates the Apple recruiter outreach.
-2. **QA the recruiter path on ithinkitschris.com** — Run through it end-to-end. Make sure it's polished before anyone sees it.
-3. **Apple recruiter message** — Combine the follow-up with the portfolio testing ask. One message: staying in touch for HI roles (July 2026 availability) + "I've been building something different for my portfolio and I'd love your honest gut reaction." Two purposes, one genuine conversation. This week.
-4. **Map 1-2 degree connections** — Before any broader outreach. List people, companies, touchpoints.
-5. **Identify in-house recruiters at Anthropic and Rivian** — Same portfolio testing outreach. Widen the funnel.
-6. **Deploy thesis framing in outreach** — The thesis is a conversation starter, not a credential. Build it into the networking language.
+1. ~~**Finalize both resumes in Figma.**~~ Done.
+2. ~~**Map 1-2 degree connections.**~~ Done. Full connection map documented above.
+3. ~~**Apple recruiter message draft.**~~ Done. Working draft exists, sending window mid-to-late March.
+4. **QA the recruiter path on ithinkitschris.com** — Run through it end-to-end. Make sure it's polished before anyone sees it. This gates all outreach.
+5. **Apple HI alumni outreach** — Reach out as a peer from the same program. Most natural first conversation on the map.
+6. **DeepMind faculty conversation** — Genuine engagement. The Anthropic bridge.
+7. **Ogilvy CD catch-up** — Share what he's been building. Gateway to NYC creative shops.
+8. **MAL LA recruiter reactivation** — After portfolio QA. Portfolio testing framing.
+9. **Identify in-house recruiters at Anthropic and Rivian** — Portfolio testing outreach. Widen the funnel.
+10. **Draft Anthropic resume version** — Third tailored version. What changes for that audience?
 
 ---
 
 ## Open Questions
 
-1. **Apple recruiter message draft** — Needs to be written. The framing is clear; the specific words need to land right.
-2. **Portfolio recruiter path readiness** — Is the AI-flow recruiter experience actually polished enough to send right now, or does it need work first?
-3. **Target company list beyond the dream three** — What else is on the radar?
-4. **Anthropic and Rivian resume versions** — What changes for each audience? To be drafted after Apple HI version is finalized.
+1. ~~**Apple recruiter message draft.**~~ Resolved. Working draft exists.
+2. **Portfolio recruiter path readiness** — Is the AI-flow recruiter experience actually polished enough to send right now, or does it need work first? This gates all outreach.
+3. **Target company list beyond the dream three** — What else is on the radar? Pentagram, W+K, Mother, Media Arts Lab now added as creative/brand targets. MAL LA explicitly named as a dream office.
+4. **Anthropic resume version** — What changes for that audience? To be drafted now that Apple HI and creative versions are finalized.
+5. **Creative/brand resume skills section** — Chris's Figma version listed Cursor/Antigravity/Ollama instead of React/Next.js/Tailwind/JavaScript. Apollo flagged: the dev stack backs the "creative technology" claim in the summary. Needs Chris's final call.
+6. **Activation sequencing** — The connection map is documented. The order of activation matters. Portfolio QA first, then Apple recruiter (mid-to-late March), then Apple HI alumni, then DeepMind faculty, then Ogilvy CD, then MAL LA. Parallel where possible but not all at once.
+7. **What does the Apple HI alumni conversation look like?** — The play is clear (peer conversation, genuine ask about HI), but the specific outreach hasn't been shaped yet.
 
 ---
 
@@ -248,3 +378,17 @@ Confidence: High on reasoning. Needs validation as applications progress.
 Emerged: 2026-02-26, resume review session.
 Evidence: The resume submitted to Apple HI was dated — written before the thesis, digital twin, or PKG existed. It positioned Chris as an advertising creative pivoting into IxD, with no mention of AI, human-AI interaction, or the thesis anywhere. The "Who am I?" summary led with advertising identity aimed at no specific audience. Experience descriptions were thin scope statements without design decisions or outcomes. For Apple HI, the most differentiating work was completely absent from the document. The resume got a recruiter screen anyway (strong signal about the portfolio/brand logos), but it was working against the candidacy, not for it. The rewrite adds the thesis, digital twin, and Stanford first place in a new Current Work section, rewrites the summary around the positioning line, and bridges each experience entry to interaction design thinking.
 Confidence: High. The gap was concrete and observable.
+
+**Position 9: The same experience needs different language for different audiences.**
+Emerged: 2026-02-26, creative/brand resume session.
+Evidence: The Apple HI experience entries were written to bridge advertising to interaction design thinking — systems, complexity, design decisions. The creative/brand entries needed the opposite: maker language, hands-on craft, what Chris actually built with his hands. Same roles, same campaigns, completely different emphasis. "Led integrated campaign" (Apple HI) vs. "Pitched, art directed, storyboarded, and animated" (creative/brand). The first draft in Figma accidentally used the Apple HI descriptions for the creative version — caught in QA. This confirms the tailoring matters and isn't interchangeable.
+Confidence: High. Directly observed.
+
+**Position 10: The connection map is stronger than "mostly cold."**
+Emerged: 2026-02-26, networking session.
+Evidence: Chris's self-assessment was "mostly cold, some vague 1-2 degree connections." When mapped, the actual picture is three warm, directly relevant connections (Apple HI alumni from his program, DeepMind faculty with Anthropic bridge, Ogilvy CD with NYC creative shop access), two real touchpoints needing reactivation (MAL LA recruiter met in person, Notion head of design on speaking terms), and several viable second-degree paths. The "mostly cold" framing is the underselling pattern applied to social capital. The gap is activation, not connections.
+Confidence: High. Directly documented in session.
+
+**Position 11: The Apple recruiter follow-up timing is mid-to-late March, not now.**
+Emerged: 2026-02-26, networking session.
+Evidence: The recruiter said to reach out closer to April/May. Reaching out now contradicts the timeline they set. Waiting until April means reintroducing yourself cold. Mid-to-late March is the sweet spot: close enough to their window to feel natural, early enough to stay ahead of it. Chris's initial hesitation ("wouldn't it be weird to reach out now?") was the right instinct. The strategy accounts for it.

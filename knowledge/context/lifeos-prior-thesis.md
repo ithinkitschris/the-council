@@ -1,8 +1,8 @@
 # LifeOS — Prior Thesis Context
 
-> **Purpose:** Full context on LifeOS, Chris's prior thesis direction, imported from `lifeos-platform` so The Council has complete awareness of where the thesis has been.
+> **Purpose:** Full context on LifeOS, Chris's prior thesis direction, imported from `lifeos` so The Council has complete awareness of where the thesis has been.
 >
-> **Source repo:** `/Users/chris/Documents/GitHub/lifeos-platform/`
+> **Source repo:** `/Users/chris/Documents/GitHub/lifeos/`
 >
 > **Status:** Pivoted away from on 2026-02-21. LifeOS concepts carry forward into The Council's thesis framing. Not abandoned — folded in.
 
@@ -291,7 +291,7 @@ Next.js dashboard (18 pages) for managing world canon, editing modes, exploring 
 
 ## 17. File Reference
 
-Key files in `lifeos-platform/`:
+Key files in `lifeos/`:
 ```
 WORLD.md                                         World canon (799 lines)
 CLAUDE.md                                        Platform instructions

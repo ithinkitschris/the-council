@@ -1,7 +1,7 @@
 # Thesis State
 
-Last updated: 2026-02-25
-Updated by: Chris + Athena (third session)
+Last updated: 2026-02-26
+Updated by: Chris + Athena (sixth session)
 
 ---
 
@@ -60,11 +60,23 @@ Time remaining: roughly 7 weeks as of last update.
 - Role in thesis: The knowledge engine. A means to an end — powers LifeOS scenarios with real personal knowledge. Not the thesis contribution.
 - Separate project with its own trajectory beyond the thesis.
 
-### LifeOS Platform (lifeos-platform)
-- Status: Existing infrastructure. Backend API, scenario management, streaming LLM integration, world canon (WORLD.md), dashboard, digital twin prototype.
-- Currently uses Marcus Chen (synthetic user) — to be replaced with Chris's PKG.
+### LifeOS Platform (lifeos)
+- Status: v2 architecture decided. Implementation on v2 branch pending.
+- v1 used Marcus Chen (synthetic user). v2 replaces Marcus with Chris's PKG via native markdown integration under PKG > Host > Directive.
+- Two simulation modes: immersive (WoZ, LLM plays LifeOS) and reflective (LLM narrates and interviews).
+- Findings capture built into the platform: real-time reactions + post-session structured reflection.
 - World canon contains locked interaction frameworks: Domain-Mode-Intent, Center/Periphery/Silence, constitutional rules, device ecosystem.
-- Role in thesis: The simulation engine. Stages LifeOS scenarios for first-person testing. Needs PKG integration and vignette design.
+- Role in thesis: Co-equal thesis artifact alongside the visual design system. The simulation platform surfaces the tensions; the visual design responds to them. The platform itself is a designed artifact presented at the defense.
+- Handoff document: `the-council/docs/process/lifeos-v2-handoff.md`
+
+### LifeOS Visual Design System (Figma)
+- Status: In progress. ~8 high-fidelity screens across two interaction flows and a morning briefing. Still using Marcus (v1). Design language is coherent and portfolio-quality.
+- Design language: Dark surfaces, frosted glass cards, SF Pro Rounded, color-coded modes (orange for thesis/academic, blue for navigation/transit, green for social, purple for reading/learning), gradient text emphasis, environmental photography and 3D renders as scene contexts.
+- **Transit flow (4 screens):** Schedule timeline → subway navigation ("Head for the downtown platform") → platform arrival ("Board the Q" with real NYC subway data) → en-route intent suggestions (messages, class materials, reading, social). The en-route screen with proactive intent suggestions is the strongest single artifact for the augmentation-substitution tension.
+- **Thesis Discussion flow (3 screens):** Phone/glasses view with environmental overlay, real-time transcription, proactive search prompt → tablet deep-dive with contextual content, relevance analysis, comparison framework. Demonstrates Center/Periphery across devices.
+- **Morning briefing (1 screen):** Wake-up scene, "Good morning, Marcus", contextual prompts (weather, wash up). Still uses Marcus.
+- Pending: Update screens from Marcus to Chris (cosmetic, not structural). Animated prototypes not yet started. Additional vignettes may be needed.
+- Source: Figma file `Thesis-1` (AO08pWQBkKGRoKS85HpOKx).
 
 ### Portfolio Twin (nextjs-boilerplate)
 - Status: Deployed at ithinkitschris.com.
@@ -98,19 +110,31 @@ Time remaining: roughly 7 weeks as of last update.
 
 10. **Scalability path: PKG onboarding for other users** (2026-02-25) — Future work framed at the defense. A 5-10 minute onboarding generates a user's own PKG, which hooks into LifeOS to simulate their scenarios and test their reactions. Designed, not yet built. Extends the thesis beyond n=1.
 
+11. **Platform v2 architecture decided** (2026-02-26) — lifeos re-architected under PKG > Host > Directive. Marcus Chen replaced by Chris's PKG (native markdown integration, no adapter layer). Two simulation modes: immersive (WoZ, LLM plays LifeOS) and reflective (LLM narrates and interviews). Findings capture built into the platform: real-time reactions + post-session structured reflection. Dashboard serves three roles: research instrument, world reference, knowledge transparency. Handoff document at `the-council/docs/process/lifeos-v2-handoff.md`.
+
+12. **Methodology platform is co-equal thesis artifact** (2026-02-26) — The simulation platform is not scaffolding. It has equal weight to the LifeOS visual design system as a thesis contribution. Both are designed artifacts presented at the defense. The platform demonstrates the rigor (PKG-powered simulation, first-person testing, structured findings). The visual design demonstrates the craft. Dashboard design evolves through use, not upfront planning.
+
+13. **Defense foundation system established** (2026-02-26) — Single source of truth for the thesis defense argument created at `thesis/defense.md`. Eight-section argued structure (claim, reasoning, evidence, status per section). Evidence staging area for unsorted research. Evolution tracked in `thesis/defense-log.md` with milestoned versions. Governance mirrors PKG model: Athena proposes, Chris approves.
+
+14. **Visual design work exists and is further along than documented** (2026-02-26) — ~8 high-fidelity screens across two complete interaction flows (Transit, Thesis Discussion) and a morning briefing. Design language is coherent and portfolio-quality. Still uses Marcus (v1); needs cosmetic update to Chris for v2. The en-route intent suggestion screen and the Thesis Discussion tablet deep-dive are the strongest existing artifacts for the defense argument. Animated prototypes not yet started.
+
 ---
 
 ## Open Questions
 
 1. **Which vignettes to simulate** — The specific LifeOS scenarios to stage in the simulation platform. Candidates discussed: morning prioritization, preparing for a specific person, post-conversation reflection, real-time recontextualization, subway navigation, thesis discussion with classmates. Not yet selected.
 
-2. **PKG integration scope** — How much work to replace Marcus Chen with Chris's PKG in lifeos-platform. The platform was built around YAML-based synthetic data; the PKG is 11,000 lines of markdown with different structure. Integration approach not yet scoped.
+2. ~~**PKG integration scope**~~ — **Resolved (2026-02-26).** Native markdown integration under PKG > Host > Directive. No adapter layer. PKG prose feeds directly into simulation prompts. Situational data (biometrics, calendar, weather) specified per-vignette. Full architecture in handoff document.
 
-3. **Process documentation** — How much is enough for the thesis deliverable. Currently sparse.
+3. **Process documentation** — How much is enough for the thesis deliverable. Currently sparse. The platform's evolve-through-use approach generates process documentation organically, but it needs to be captured deliberately.
 
-4. **Thesis writing timeline** — With simulation, design, and visual work ahead, when does the written thesis happen? Likely concurrent with design work in weeks 4-6.
+4. ~~**Thesis writing timeline**~~ — **Clarified (2026-02-26).** No written thesis document required. Deliverable is a ~7-minute defense presentation. The defense foundation (`thesis/defense.md`) is the single source of truth being built toward that presentation. Narrative pacing and storytelling are a later layer on top of the argued structure.
 
-5. **WoZ methodology rigor** — What exactly is real system behavior vs. manually orchestrated in the simulation. Needs to be precise for the defense.
+5. **WoZ methodology rigor** — What exactly is real system behavior vs. manually orchestrated in the simulation. The two simulation modes (immersive and reflective) make this more precise: immersive is WoZ (LLM plays LifeOS), reflective is facilitated interview. Both need clear framing for the defense.
+
+6. **Relationship data for simulations** — The PKG has interpersonal patterns but not structured relationship definitions (priority tiers, notification rules). Should vignettes specify relevant relationships inline, or should there be a simulation-specific relationships file?
+
+7. **Platform deployment** — Should the v2 dashboard be deployed (Vercel) for defense committee access, or remain local-only?
 
 ---
 
@@ -136,12 +160,12 @@ Time remaining: roughly 7 weeks as of last update.
 ## Timeline Reality
 
 ### Must complete (thesis is incomplete without these)
-- PKG integration into lifeos-platform
+- PKG integration into lifeos
 - Vignette design and simulation runs
 - First-person testing with documented findings
-- Visual design system: high-fidelity screens and animated prototypes for 1-2 key vignettes
-- Written thesis argument
-- Defense preparation
+- Visual design system: high-fidelity screens exist (~8 screens, two flows). Remaining: update from Marcus to Chris, animated prototypes, trace design decisions to simulation findings
+- Defense foundation: argued structure with evidence (thesis/defense.md)
+- Defense presentation: ~7-minute narrative built on the foundation
 
 ### Should complete (strengthens the thesis significantly)
 - PKG onboarding prototype (scalability demonstration)
@@ -154,10 +178,10 @@ Time remaining: roughly 7 weeks as of last update.
 - User testing beyond n=1 (other people with generated PKGs)
 
 ### At risk
-- PKG integration timeline: replacing Marcus Chen could take longer than expected
-- Visual design quality: compressed timeline vs. portfolio-level polish
-- Written thesis: with simulation and design work ahead, writing time is the most likely casualty
-- Scope discipline: lifeos-platform has ambition baked in. The platform is the stage, not the performance.
+- PKG integration timeline: architecture is decided but implementation is real work
+- Two design surfaces: the platform dashboard and the LifeOS visual system both need to be portfolio-quality. Two artifacts, one timeline.
+- Visual design: screens exist but need Marcus-to-Chris update and animated prototypes. The design work is ahead of the simulation findings, which means design decisions may not yet trace to documented evidence. The simulation needs to catch up.
+- Scope discipline: the platform is now a thesis artifact, which raises the bar. But evolve-through-use approach should prevent front-loaded over-engineering.
 
 ---
 
@@ -183,5 +207,10 @@ Confidence: High. This is a strategic decision Chris made with clear eyes about 
 
 **Position 4: Scope discipline is the primary risk.**
 Emerged: 2026-02-25.
-Evidence: The lifeos-platform has significant existing infrastructure and ambition. The PKG integration is real work. The visual design needs portfolio-level polish. Seven weeks. Every session has expanded scope before contracting it. The pattern suggests Chris's instinct is to add, not cut. The vignettes must be scoped ruthlessly — one to two, fully realized, not five at half quality.
-Confidence: High. This needs to be said at the start of every session until the defense.
+Evidence: The lifeos repo has significant existing infrastructure and ambition. The PKG integration is real work. The visual design needs portfolio-level polish. Seven weeks. Every session has expanded scope before contracting it. The pattern suggests Chris's instinct is to add, not cut. The vignettes must be scoped ruthlessly — one to two, fully realized, not five at half quality.
+Confidence: High. This needs to be said at the start of every session until the defense. The fourth session added the platform as a co-equal thesis artifact, which is the right call for the argument but adds design surface area. The evolve-through-use approach is the scope discipline response.
+
+**Position 5: The methodology platform earns its place at the defense.**
+Emerged: 2026-02-26, fourth advising session.
+Evidence: Chris identified that the platform shouldn't be an aside but a significant part of the body work. The dashboard serves three roles: research instrument, world reference, and knowledge transparency layer. The knowledge transparency feature (showing what the PKG contains and how it feeds simulations) directly practices the thesis argument about governance: the user should see what the system knows about them. The platform is where the tensions get surfaced. The visual design is where they get responded to. Removing either weakens the thesis.
+Confidence: Developing. Needs the platform to be built and used to confirm the argument holds. The evolve-through-use approach means the platform's design quality emerges from genuine research sessions, not upfront speculation.
